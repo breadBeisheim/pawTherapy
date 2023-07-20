@@ -11,6 +11,13 @@
 		BD3CA67C2A65DC3300016F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3CA67B2A65DC3300016F95 /* ContentView.swift */; };
 		BD3CA67E2A65DC3400016F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3CA67D2A65DC3400016F95 /* Assets.xcassets */; };
 		BD3CA6812A65DC3400016F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3CA6802A65DC3400016F95 /* Preview Assets.xcassets */; };
+		BD7B4DD62A69C51000F51BBB /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DD52A69C51000F51BBB /* Meditation.swift */; };
+		BD7B4DD82A69C51C00F51BBB /* Riddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DD72A69C51C00F51BBB /* Riddle.swift */; };
+		BD7B4DDA2A69C53000F51BBB /* WordUnscramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DD92A69C53000F51BBB /* WordUnscramble.swift */; };
+		BD7B4DDC2A69C54100F51BBB /* ScanvengerHuntQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DDB2A69C54100F51BBB /* ScanvengerHuntQuiz.swift */; };
+		BD7B4DDE2A69C58200F51BBB /* houseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DDD2A69C58200F51BBB /* houseFile.swift */; };
+		BD7B4DE02A69C58E00F51BBB /* cityFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DDF2A69C58E00F51BBB /* cityFile.swift */; };
+		BD7B4DE22A69C5A000F51BBB /* parkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B4DE12A69C5A000F51BBB /* parkFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		BD3CA67B2A65DC3300016F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD3CA67D2A65DC3400016F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3CA6802A65DC3400016F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD7B4DD52A69C51000F51BBB /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		BD7B4DD72A69C51C00F51BBB /* Riddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle.swift; sourceTree = "<group>"; };
+		BD7B4DD92A69C53000F51BBB /* WordUnscramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordUnscramble.swift; sourceTree = "<group>"; };
+		BD7B4DDB2A69C54100F51BBB /* ScanvengerHuntQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanvengerHuntQuiz.swift; sourceTree = "<group>"; };
+		BD7B4DDD2A69C58200F51BBB /* houseFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseFile.swift; sourceTree = "<group>"; };
+		BD7B4DDF2A69C58E00F51BBB /* cityFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityFile.swift; sourceTree = "<group>"; };
+		BD7B4DE12A69C5A000F51BBB /* parkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				BD3CA6792A65DC3300016F95 /* pawTherapyApp.swift */,
 				BD3CA67B2A65DC3300016F95 /* ContentView.swift */,
+				BD7B4DD72A69C51C00F51BBB /* Riddle.swift */,
+				BD7B4DD92A69C53000F51BBB /* WordUnscramble.swift */,
+				BD7B4DDB2A69C54100F51BBB /* ScanvengerHuntQuiz.swift */,
+				BD7B4DDD2A69C58200F51BBB /* houseFile.swift */,
+				BD7B4DDF2A69C58E00F51BBB /* cityFile.swift */,
+				BD7B4DE12A69C5A000F51BBB /* parkFile.swift */,
+				BD7B4DD52A69C51000F51BBB /* Meditation.swift */,
 				BD3CA67D2A65DC3400016F95 /* Assets.xcassets */,
 				BD3CA67F2A65DC3400016F95 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7B4DD62A69C51000F51BBB /* Meditation.swift in Sources */,
+				BD7B4DDE2A69C58200F51BBB /* houseFile.swift in Sources */,
+				BD7B4DE02A69C58E00F51BBB /* cityFile.swift in Sources */,
 				BD3CA67C2A65DC3300016F95 /* ContentView.swift in Sources */,
 				BD3CA67A2A65DC3300016F95 /* pawTherapyApp.swift in Sources */,
+				BD7B4DE22A69C5A000F51BBB /* parkFile.swift in Sources */,
+				BD7B4DD82A69C51C00F51BBB /* Riddle.swift in Sources */,
+				BD7B4DDA2A69C53000F51BBB /* WordUnscramble.swift in Sources */,
+				BD7B4DDC2A69C54100F51BBB /* ScanvengerHuntQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

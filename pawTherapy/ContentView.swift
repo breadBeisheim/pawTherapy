@@ -1,77 +1,80 @@
 //
-//  ContentView.swift
-//  pawTherapy
+// ContentView.swift
+// pawTherapy
 //
-//  Created by Scholar on 7/17/23.
+// Created by Scholar on 7/17/23.
 //
-
 import SwiftUI
-
 struct ContentView: View {
-    var body: some View {
-        NavigationStack {
-            VStack {
-                Text("Paw Therapy")
-                    .font(.largeTitle)
-                    .fontWeight(.light)
-                   
-            
-                    
-                        .padding(0)
-                    
-                    Text("Click on me to try a fun scavenger hunt!")
-                        .font(.subheadline)
-                        .padding(0)
-                
-                HStack {
-                    Text("Click on me to try a challenging puzzle!")
-                        .font(.subheadline)
-                        .padding(0)
-                    
-                    
-                    
-                }
-                HStack {
-                    
-                    
-                    Text("Click on me to try a mid boggling riddle!")
-                        .font(.subheadline)
-                    
-                    Text("Click on me to try a relaxing meditation!")
-                        .font(.subheadline) }
-                
-                HStack {
-                    
-                    Image("blackcat")
-                        .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fit)
-                    Image("greycat2")
-                        .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fit)
+  var body: some View {
+    NavigationStack {
+      ZStack{
+        Image("sunset")
+              .resizable()
+              .aspectRatio(contentMode: .fill)
+              .edgesIgnoringSafeArea(.all)
+        VStack {
+            Image("paww")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            .padding(.top, -100.0)
+          Text("Welcome to Paw Theraphy!").foregroundColor(Color(white:100))
+            Spacer()
+                .frame(width: 50.0, height: 370.0)
+          HStack{
+            NavigationLink(destination: ScanvengerHuntQuiz()) {
+              Image("scavenger")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding(5.0)
 
-                    Image("gingercat2")
-                        .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fit)
-                    
-                    Image("pinkishcat2")
-                        .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fit)
-                    
-                    
-                                    }
-                   
-               
-                
-                
-                
-                
+            } .foregroundColor(Color(white:100))
+                        NavigationLink(destination: Riddle()) {
+              Image("riddle")
+                .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding(5.0)
+           }
+            .foregroundColor(Color(white:100))
+            NavigationLink(destination: Meditation()) {
+                Image("meditation")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .padding(5.0)
+
             }
-               }
-    }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
+              NavigationLink(destination: WordUnscramble()) {
+                  Image("puzzle")
+                      .resizable(resizingMode: .stretch)
+                      .aspectRatio(contentMode: .fit)
+                      .padding(5.0)
+
+              }
+          }
+            
+          HStack{
+            Image("black")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            Image("grey")
+              .resizable(resizingMode: .stretch)
+              .aspectRatio(contentMode: .fit)
+            Image("ginger")
+              .resizable(resizingMode: .stretch)
+              .aspectRatio(contentMode: .fit)
+            Image("pink")
+              .resizable(resizingMode: .stretch)
+              .aspectRatio(contentMode: .fit)
+          }
+          
         }
+        .padding(.horizontal, 400.0)
+        }
+      }
     }
-}
+  }
+  struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+      ContentView()
+    }
+  }
